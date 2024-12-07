@@ -53,12 +53,12 @@ const Header = () => {
             <a onClick={closeNavbar} className='whitespace-nowrap hover:text-ferrari-red transition-all duration-300 text-blue-chalk leading-150 text-base relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-ferrari-red after:transition-all after:duration-300 hover:after:w-full after:' href={data.link} key={i}>{data.name}</a>
           )
           )}
-            <button className='flex lg:hidden items-center gap-1 py-3 px-[27px] font-bold text-base rounded-[0_50px_50px_20px] bg-white'>
+            <button className='flex lg:hidden max-sm:px-5 max-sm:py-2.5 items-center gap-1 py-3 px-[27px] font-bold text-base rounded-[0_50px_50px_20px] bg-white'>
         Get Started 
         <ArrowIcon/>
         </button>
         </div>
-        <button className='flex max-lg:hidden items-center gap-1 py-3 px-[27px] font-bold text-base rounded-[0_50px_50px_20px] bg-white'>
+        <button className='flex max-sm:px-5 max-sm:py-2.5 max-lg:hidden items-center gap-1 py-3 px-[27px] font-bold text-base rounded-[0_50px_50px_20px] bg-white'>
         Get Started 
         <ArrowIcon/>
         </button>

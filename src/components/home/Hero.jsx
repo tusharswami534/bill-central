@@ -4,12 +4,13 @@ import Button from '../../common/Button'
 import { CommonArrowIcon } from '../../utils/Icons'
 import HeroBgLayer from '../../assets/images/webp/hero-bg-layer.webp'
 import HeroImage from '../../assets/images/webp/hero-image.webp'
+import HeroDots from '../../assets/images/webp/hero-dots.webp'
 
 const Hero = () => {
   return (
-    <div className='bg-contain max-lg:bg-cover bg-top bg-no-repeat max-2xl:px-5' style={{backgroundImage:`url(${HeroBgLayer})`}}>
+    <div className='bg-contain max-lg:bg-cover bg-top bg-no-repeat max-2xl:px-5 overflow-hidden' style={{backgroundImage:`url(${HeroBgLayer})`}}>
       <Header/>
-        <div className='container mx-auto flex flex-wrap mt-[120px] max-lg:mt-12 max-lg:gap-5'>
+        <div className='container mx-auto flex flex-wrap mt-[120px] max-lg:mt-12 max-sm:mt-6 max-lg:gap-5'>
           <div className='w-1/2 max-lg:w-full flex flex-col justify-between'>
           <div>
             <h1 className='!leading-110 text-custom-6xl max-lg:text-5xl max-md:text-4xl max-sm:text-3xl font-normal text-white max-w-[612px] max-lg:max-w-full'>Easily Compare <span className='font-bold'> Energy, Gas, and Internet </span> Plans</h1>
@@ -23,8 +24,9 @@ const Hero = () => {
               <p className='!leading-110 max-lg:text-3xl max-md:text-2xl max-sm:text-xl text-custom-4xl max-w-[548px] text-green-vogue max-lg:text-white max-lg:max-w-full'>More than <span className='font-bold text-ball-blue'> 80,000+ </span> companies trust bill central </p>
             </div>
           </div>
-          <div className='w-1/2 max-lg:w-full'>
-            <img className='max-lg:w-full' src={HeroImage} alt="HeroImage" />
+          <div className='w-1/2 max-lg:w-full relative'>
+            <img className='max-lg:w-full relative z-10' src={HeroImage} alt="HeroImage" />
+            <img className='absolute top-[-7%] right-[-12%]' src={HeroDots} alt="HeroDots" />
           </div>
         </div>
     </div>

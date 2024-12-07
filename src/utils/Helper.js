@@ -5,7 +5,9 @@ import Origin from '../assets/images/png/origin.png'
 import Ovo from '../assets/images/png/ovo.png'
 import Sumo from '../assets/images/png/sumo.png'
 import Alg from '../assets/images/png/agl.png'
-import { Bundle, ComprehensiveSupport, Electricity, GasPlan, InternetPlan, NoService, SaveTime, Simplified } from './Icons'
+import CameronProfile from '../assets/images/png/cameron-profile.png'
+import { Bundle, ComprehensiveSupport, Electricity, FiveStar, GasPlan, InternetPlan, NoService, SaveTime, Simplified } from './Icons'
+
 export const HERDER_LIST = [
     {
         name: 'About',
@@ -109,4 +111,14 @@ export const UTILITIES_LIST = [
         Description: 'Whether you need assistance selecting a plan or during the switch, our dedicated support team is here to help every step of the way.'
     },
 
+]
+
+export const TESTIMONIALS_LIST = [
+    {
+        Profile : CameronProfile,
+        Name : 'Cameron',
+        UserName : '@cameron',
+        Rating : <FiveStar/>,
+        Description : 'Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio  adipiscing elit vitae vestibulum vestibulum.'
+    },
 ]

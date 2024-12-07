@@ -29,6 +29,9 @@ module.exports = {
       },
       margin: {
         'custom-10': '42px',
+      },
+      backgroundImage: {
+        'hero-image' : "url('../public/assets/images/webp/hero-bg-layer.webp')",
       }
     },
   },

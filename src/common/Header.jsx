@@ -1,7 +1,6 @@
 import React, { useState , useEffect } from 'react'
 import { HERDER_LIST } from '../utils/Helper'
 import { ArrowIcon } from '../utils/Icons'
-import PageLogo from '../assets/images/webp/logo.webp'
 
 const Header = () => {
 
@@ -32,7 +31,7 @@ const Header = () => {
       <div className='flex justify-between items-center container py-4 mx-auto'>
         <div className='items-center'>
         <a href="/">
-        <img src={PageLogo} alt="Section_Logo" /></a>
+        <img src='./assets/images/webp/logo.webp' alt="Section_Logo" /></a>
         </div>
         <button
           onClick={handleOpen}
@@ -50,15 +49,15 @@ const Header = () => {
         </button>
         <div className={`flex gap-6 max-lg:flex-col max-lg:z-40 max-lg:fixed max-lg:top-0 max-lg:w-full max-lg:h-screen max-lg:justify-center max-lg:items-center max-lg:bg-ball-blue max-lg:transition-all max-lg:duration-300 ${open ? 'max-lg:left-0' : 'left-full'}`}>
           {HERDER_LIST.map((data, i) => (
-            <a onClick={closeNavbar} className='whitespace-nowrap hover:text-ferrari-red transition-all duration-300 text-blue-chalk leading-150 text-base relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-ferrari-red after:transition-all after:duration-300 hover:after:w-full after:' href={data.link} key={i}>{data.name}</a>
+            <a onClick={closeNavbar} className='whitespace-nowrap hover:text-ferrari-red transition-all duration-300 text-blue-chalk leading-150 text-base relative after:absolute after:w-0 after:transition-all after:duration-300 after:hover:w-full after:bottom-0 after:h-0.5 after:bg-white after:left-0' href={data.link} key={i}>{data.name}</a>
           )
           )}
-            <button className='flex lg:hidden max-sm:px-5 max-sm:py-2.5 items-center gap-1 py-3 px-[27px] font-bold text-base rounded-[0_50px_50px_20px] bg-white'>
+            <button className='flex lg:hidden max-sm:px-5 max-sm:py-2.5 hover:scale-110 transition-all duration-300 items-center gap-1 py-3 px-[27px] font-bold text-base rounded-[0_50px_50px_20px] bg-white'>
         Get Started 
         <ArrowIcon/>
         </button>
         </div>
-        <button className='flex max-sm:px-5 max-sm:py-2.5 max-lg:hidden items-center gap-1 py-3 px-[27px] font-bold text-base rounded-[0_50px_50px_20px] bg-white'>
+        <button className='flex max-sm:px-5 max-sm:py-2.5 hover:scale-110 transition-all duration-300 max-lg:hidden items-center gap-1 py-3 px-[27px] font-bold text-base rounded-[0_50px_50px_45px] bg-white'>
         Get Started 
         <ArrowIcon/>
         </button>

@@ -31,7 +31,9 @@ const SimpleSteps = () => {
             breakpoints={{
               320: {
                 slidesPerView: 1, 
-                centeredSlides : true
+                spaceBetween: 30,
+                centeredSlides : true,
+                
               },
               640: {
                 slidesPerView: 2,
@@ -43,7 +45,7 @@ const SimpleSteps = () => {
               },
               1200: {
                 slidesPerView: 4,
-                centeredSlides : false
+                centeredSlides : false,
               },
 
             }}

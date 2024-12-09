@@ -52,9 +52,9 @@ const SimpleSteps = () => {
               <SwiperSlide key={index}>
                 <div
                   
-                  className="relative max-w-[360px] max-sm:max-h-[450px] group cursor-pointer overflow-hidden"
+                  className="relative min-h-[661px] max-sm:min-h-[450px] max-w-[360px] max-sm:max-h-[450px] group cursor-pointer overflow-hidden"
                 >
-                  <img src={item.stepsImage} alt={item.alt} />
+                  <img className="w-full min-h-[661px] max-sm:min-h-[450px]" src={item.stepsImage} alt={item.alt} />
                   <div className="absolute group-hover:h-0 group-hover:w-0 group-hover:top-1/2 group-hover:left-1/2 group-hover:translate-x-[-50%] group-hover:translate-y-[-50%] group-hover:opacity-100 group-hover:z-10 transition-all duration-700 bg-lily-white opacity-94 top-0 left-0 w-full h-full">
                     <div className="relative w-full h-full">
                       <p

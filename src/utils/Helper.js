@@ -1,5 +1,5 @@
 import { Bundle, ComprehensiveSupport, Electricity,  GasPlan, InternetPlan, NoService, SaveTime, Simplified } from './Icons'
-
+// HEADER
 export const HERDER_LIST = [
     {
         name: 'About',
@@ -26,6 +26,49 @@ export const HERDER_LIST = [
         name: 'FAQ',
         link : '#faq'
     },
+]
+
+// Switching Energy Made Simple
+export const SWITCHING_ENERGY_LIST = [
+    "Save money by finding cheaper deals.",
+    "Get better customer service.",
+    "Explore greener, more sustainable energy options."
+]
+
+// Simple Steps to Switch
+export const SIMPLE_STEPS_LIST = [
+    {
+        stepsImage : './assets/images/webp/enter-location.webp',
+        alt : 'Enter Location',
+        imageContent : '1. Enter Your Location and Preferences',
+        hoverHeading : '1. Your Location',
+        hoverContent : 'Enter your location and preferences to find the best energy, gas, and internet plans for you.'
+    },
+    
+    {
+        stepsImage : './assets/images/webp/compare-providers.webp',
+        alt : 'Compare Providers',
+        imageContent : '2. Compare Providers',
+        hoverHeading : '2. Compare',
+        hoverContent : 'Enter your location and preferences to find the best energy, gas, and internet plans for you.'
+    },
+
+    {
+        stepsImage : './assets/images/webp/switch-easily.webp',
+        alt : 'Switch Easily',
+        imageContent : '3. Switch Easily',
+        hoverHeading : '3. Switch Easily',
+        hoverContent : 'Complete the process in just a few clicks. We’ll handle the rest and ensure a smooth transition to your new provider.'
+    },
+
+    {
+        stepsImage : './assets/images/webp/best-plan.webp',
+        alt : 'Best Plan',
+        imageContent : '4. Choose the Best Plan',
+        hoverHeading : '4. Best Plan',
+        hoverContent : 'Enter your location and preferences to find the best energy, gas, and internet plans for you.'
+    },
+
 ]
 
 export const COMPANIES_lOGO = [

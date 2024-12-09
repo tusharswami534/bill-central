@@ -3,7 +3,7 @@ import React from 'react'
 const OurNewsletter = () => {
   return (
     <div>
-      
+      OurNewsletter
     </div>
   )
 }

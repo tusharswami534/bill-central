@@ -12,18 +12,18 @@ const Hero = () => {
           <div className='max-lg:flex max-lg:flex-col max-lg:items-center'>
             <h1 className='!leading-110 text-custom-6xl max-lg:text-5xl max-md:text-4xl max-sm:text-3xl font-normal max-lg:text-center text-white max-w-[612px] max-lg:max-w-full'>Easily Compare <span className='font-bold'> Energy, Gas, And Internet </span> Plans</h1>
             <p className='text-white max-w-[506px] !leading-150 max-lg:max-w-full mt-4 max-md:text-sm max-lg:text-center'>Find and switch to the best energy, gas, and internet plans with ease. Our platform simplifies your search, letting you compare providers and make informed decisions, all in one place.</p>
-            <div className='max-w-[476px] max-lg:!my-5 bg-[#FEFEFE] !mt-custom-10 p-[9px] flex w-full rounded-[0_100px_100px_70px]'>
-              <input className='w-full outline-none items-center placeholder:text-bluish-grey max-sm:placeholder:text-sm px-3 text-bluish-grey' placeholder='Start typing your address' type="text" />
+            <form className='max-w-[476px] max-lg:!my-5 bg-[#FEFEFE] !mt-custom-10 p-[9px] flex w-full rounded-[0_100px_100px_70px]'>
+              <input required className='w-full outline-none items-center placeholder:text-bluish-grey max-sm:placeholder:text-sm px-3 text-bluish-grey' placeholder='Start typing your address' type="text" />
               <CustomButton customButton={'Compare'} arrowBtn={<CommonArrowIcon/>}/>
-            </div>
+            </form>
             </div>
             <div>
-              <p className='!leading-110 max-lg:text-3xl 2xl:text-white max-md:text-2xl max-sm:text-xl text-custom-4xl max-lg:text-center max-w-[548px] text-green-vogue max-lg:text-white max-lg:max-w-full'>More than <span className='font-bold text-ball-blue'> 80,000</span>+ companies trust bill central </p>
+              <p className='!leading-110 max-lg:text-3xl 2xl:text-white max-md:text-2xl max-sm:text-xl text-custom-4xl max-lg:text-center max-w-[548px] text-green-vogue max-xl:text-white max-lg:max-w-full'>More than <span className='font-bold text-ball-blue'> 80,000</span>+ companies trust bill central </p>
             </div>
           </div>
-          <div className='w-1/2 max-lg:w-full relative'>
-            <img className='max-lg:w-full relative z-10' src='./assets/images/webp/hero-image.webp' alt="HeroImage" />
-            <img className='absolute top-[-7%] right-[-12%]' src='./assets/images/webp/hero-dots.webp' alt="HeroDots" />
+          <div className='w-1/2 max-lg:w-full relative max-lg:justify-center max-lg:flex'>
+            <img className='relative z-10' src='./assets/images/webp/hero-image.webp' alt="HeroImage" />
+            <img className='absolute top-[-7%] max-lg:hidden right-[-12%]' src='./assets/images/webp/hero-dots.webp' alt="HeroDots" />
           </div>
         </div>
     </div>

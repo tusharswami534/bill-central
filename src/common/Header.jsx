@@ -31,7 +31,7 @@ const Header = () => {
       <div className='flex justify-between items-center container py-4 mx-auto'>
         <div className='items-center'>
         <a href="/">
-        <img src='./assets/images/webp/logo.webp' alt="Section_Logo" /></a>
+        <img src='./assets/images/webp/logo.webp' alt="section logo" /></a>
         </div>
         <button
           onClick={handleOpen}

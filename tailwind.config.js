@@ -18,20 +18,32 @@ module.exports = {
         'ball-blue' : '#00A8E8',
         'bluish-grey' : '#7F8B8F',
         'green-vogue' : '#003459',
+        'lily-white' : '#EAF9FF',
+        'black-bean' : '#00171F',
+        'gravel' : '#4b4b4b',
       },
       lineHeight: {
         '110': '110%',
         '150': '150%',
+        '160': '160%',
       },
       fontSize: {
       'custom-4xl' : '38px',
       'custom-6xl' : '64px',
+      'custom-3xl': '32px',
       },
       margin: {
         'custom-10': '42px',
+        'custom-14': '58px',
       },
       backgroundImage: {
         'hero-image' : "url('../public/assets/images/webp/hero-bg-layer.webp')",
+      },
+      opacity: {
+        94 : '.94',
+      },
+      gap: {
+        'custom-10': '42px',
       }
     },
   },

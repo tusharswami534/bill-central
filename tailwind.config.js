@@ -43,7 +43,7 @@ module.exports = {
         94 : '.94',
       },
       gap: {
-        'custom-10': '42px',
+        'custom-12': '42px',
       }
     },
   },

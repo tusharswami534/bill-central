@@ -18,7 +18,7 @@ const Hero = () => {
             </form>
             </div>
             <div>
-              <p className='!leading-110 max-lg:text-3xl 2xl:text-white max-md:text-2xl max-sm:text-xl text-custom-4xl max-lg:text-center max-w-[548px] text-green-vogue max-xl:text-white max-lg:max-w-full'>More than <span className='font-bold text-ball-blue'> 80,000</span>+ companies trust bill central </p>
+              <p className='!leading-110 max-lg:text-3xl 2xl:text-white max-md:text-2xl max-sm:text-xl text-custom-4xl max-lg:text-center max-w-[548px] text-green-vogue max-xl:text-white max-lg:max-w-full max-lg:hidden'>More than <span className='font-bold text-ball-blue'> 80,000</span>+ companies trust bill central </p>
             </div>
           </div>
           <div className='w-1/2 max-lg:w-full relative max-lg:justify-center max-lg:flex'>

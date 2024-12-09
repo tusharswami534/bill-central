@@ -6,9 +6,9 @@ import CustomButton from '../../common/CustomButton'
 
 const SwitchingEnergy = () => {
   return (
-    <div className='py-[81px]'>
+    <div className='py-[81px] max-xl:px-5 max-lg:py-16 max-md:py-14 max-sm:py-10'>
         <div className='container mx-auto'>
-          <div className='flex flex-wrap justify-center items-center gap-[75px]'>
+          <div className='flex flex-wrap justify-center items-center max-lg:gap-10 max-md:gap-8 max-sm:gap-6 gap-[75px]'>
               <img className='max-w-[507px] w-full max-h-[451px]' src="./assets/images/webp/switching-energy-image.webp" alt="Switching Energy" />
               <div className='flex flex-col'>
                 <div className='max-w-[409px]'>

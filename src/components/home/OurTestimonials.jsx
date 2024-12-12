@@ -30,7 +30,6 @@ const OurTestimonials = () => {
             slidesPerView: 3,
             spaceBetween: 0,
             centeredSlides: true,
-            autoplay: true, 
           },
           640: {
             slidesPerView: 2,

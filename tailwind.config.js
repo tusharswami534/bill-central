@@ -21,6 +21,7 @@ module.exports = {
         'lily-white' : '#EAF9FF',
         'black-bean' : '#00171F',
         'gravel' : '#4b4b4b',
+        'midnight-moss' : '#010101',
       },
       lineHeight: {
         '110': '110%',
@@ -34,6 +35,7 @@ module.exports = {
       },
       margin: {
         'custom-10': '42px',
+        'custom-12': '46px',
         'custom-14': '58px',
       },
       backgroundImage: {
@@ -44,6 +46,9 @@ module.exports = {
       },
       gap: {
         'custom-12': '42px',
+      },
+      backgroundSize: {
+        'set' : '100% 810px',
       }
     },
   },

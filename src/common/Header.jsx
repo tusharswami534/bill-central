@@ -47,7 +47,7 @@ const Header = () => {
             className={`w-6 transition-all duration-300 h-0.5 bg-white rounded-md ${open ? '-translate-x-10' : ''}`}
           ></span>
         </button>
-        <div className={`flex gap-6 max-lg:flex-col max-lg:z-40 max-lg:fixed max-lg:top-0 max-lg:w-full max-lg:h-screen max-lg:justify-center max-lg:items-center max-lg:bg-ball-blue max-lg:transition-all max-lg:duration-300 ${open ? 'max-lg:left-0' : 'left-full'}`}>
+        <div className={`flex gap-6 max-lg:flex-col max-lg:z-40 max-lg:fixed max-lg:top-0 max-lg:w-full max-lg:h-screen max-lg:justify-center max-lg:items-center max-lg:bg-black-bean max-lg:transition-all max-lg:duration-300 ${open ? 'max-lg:left-0' : 'left-full'}`}>
           {HERDER_LIST.map((data, i) => (
             <a onClick={closeNavbar} className='whitespace-nowrap hover:text-ferrari-red transition-all duration-300 text-blue-chalk leading-150 text-base relative after:absolute after:w-0 after:transition-all after:duration-300 after:hover:w-full after:bottom-0 after:h-0.5 after:bg-white after:left-0' href={data.link} key={i}>{data.name}</a>
           )

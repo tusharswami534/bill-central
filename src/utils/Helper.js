@@ -1,30 +1,30 @@
-import { Bundle, ComprehensiveSupport, Electricity,  GasPlan, InternetPlan, NoService, SaveTime, Simplified } from './Icons'
+import { Bundle, ComprehensiveSupport, Electricity,  FaqArrow,  FiveStar,  GasPlan, InternetPlan, NoService, SaveTime, Simplified } from './Icons'
 // HEADER
 export const HERDER_LIST = [
     {
         name: 'About',
-        link : '#about'
+        link : '/about'
     },
     {
         name: 'How It Works',
-        link : '#howItWorks'
+        link : '/works'
     },
     {
         name: 'Services',
-        link : '#services'
+        link : '/services'
 
     },
     {
         name: 'Testimonials',
-        link : '#testimonials'
+        link : '/testimonials'
     },
     {
         name: 'Why Us',
-        link : '#whyUs'
+        link : '/whyUs'
     },
     {
         name: 'FAQ',
-        link : '#faq'
+        link : '/faq'
     },
 ]
 
@@ -104,24 +104,28 @@ export const COMPANIES_lOGO = [
 
 export const COMPREHENSIVE_LIST = [
     {
-        Icon : <Electricity/>,
+        icon : <Electricity/>,
         heading : 'Electricity Plan Comparisons',
-        description : 'Whether you want renewable energy, low rates, or flexible contracts, we’ll help you find the best provider.'
+        description : 'Whether you want renewable energy, low rates, or flexible contracts, we’ll help you find the best provider.',
+        arrow : <FaqArrow/>
     },
     {
-        Icon : <GasPlan/>,
+        icon : <GasPlan/>,
         heading : 'Gas Plan Comparisons',
-        description : 'Whether you want renewable energy, low rates, or flexible contracts, we’ll help you find the best provider.'
+        description : 'Whether you want renewable energy, low rates, or flexible contracts, we’ll help you find the best provider.',
+        arrow : <FaqArrow/>
     },
     {
-        Icon : <InternetPlan/>,
+        icon : <InternetPlan/>,
         heading : 'Internet Plan Comparisons',
-        description : 'Whether you want renewable energy, low rates, or flexible contracts, we’ll help you find the best provider.'
+        description : 'Whether you want renewable energy, low rates, or flexible contracts, we’ll help you find the best provider.',
+        arrow : <FaqArrow/>
     },
     {
-        Icon : <Bundle/>,
+        icon : <Bundle/>,
         heading : 'Bundle Packages',
-        description : 'Whether you want renewable energy, low rates, or flexible contracts, we’ll help you find the best provider.'
+        description : 'Whether you want renewable energy, low rates, or flexible contracts, we’ll help you find the best provider.',
+        arrow : <FaqArrow/>
     },
 ]
 
@@ -137,14 +141,65 @@ export const UTILITIES_LIST = [
         description: 'With up-to-date plans and pricing, you can be sure you’re getting the most competitive rates available.'
     },
     {
-        Icon : <NoService/>,
+        icon : <NoService/>,
         heading : 'No Service Interruptions',
         description: 'We take care of the entire switching process so you can enjoy a hassle-free experience with zero downtime.'
     },
     {
-        Icon : <ComprehensiveSupport/>,
+        icon : <ComprehensiveSupport/>,
         heading : 'Comprehensive Support',
         description: 'Whether you need assistance selecting a plan or during the switch, our dedicated support team is here to help every step of the way.'
+    },
+
+]
+
+export const TESTIMONIALS_LIST = [
+    {
+        profile : './assets/images/webp/cameron-profile.webp',
+        name : 'Cameron',
+        userName : '@cameron',
+        rating : <FiveStar/>,
+        aboutPerson : 'Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio  adipiscing elit vitae vestibulum vestibulum.'
+    },
+
+    {
+        profile : './assets/images/webp/ronald-profile.webp',
+        name : 'Ronald',
+        userName : '@ronald',
+        rating : <FiveStar/>,
+        aboutPerson : 'Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio  adipiscing elit vitae vestibulum vestibulum.'
+    },
+
+    {
+        profile : './assets/images/webp/jay-shah-profile.webp',
+        name : 'Jay Shah',
+        userName : '@jayshah',
+        rating : <FiveStar/>,
+        aboutPerson : 'Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio  adipiscing elit vitae vestibulum vestibulum.'
+    },
+    
+    {
+        profile : './assets/images/webp/cameron-profile.webp',
+        name : 'Cameron',
+        userName : '@cameron',
+        rating : <FiveStar/>,
+        aboutPerson : 'Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio  adipiscing elit vitae vestibulum vestibulum.'
+    },
+
+    {
+        profile : './assets/images/webp/ronald-profile.webp',
+        name : 'Ronald',
+        userName : '@ronald',
+        rating : <FiveStar/>,
+        aboutPerson : 'Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio  adipiscing elit vitae vestibulum vestibulum.'
+    },
+
+    {
+        profile : './assets/images/webp/jay-shah-profile.webp',
+        name : 'Jay Shah',
+        userName : '@jayshah',
+        rating : <FiveStar/>,
+        aboutPerson : 'Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio  adipiscing elit vitae vestibulum vestibulum.'
     },
 
 ]

@@ -37,7 +37,8 @@ const SimpleSteps = () => {
               },
               640: {
                 slidesPerView: 2,
-                centeredSlides : true
+                centeredSlides : true,
+                spaceBetween: 30,
               },
               992 : {
                 slidesPerView : 3,
@@ -46,6 +47,7 @@ const SimpleSteps = () => {
               1200: {
                 slidesPerView: 4,
                 centeredSlides : false,
+                spaceBetween:0,
               },
 
             }}
